@@ -1,0 +1,73 @@
+body{
+    background-color: gray ;
+    display: flex;
+}
+
+#box{
+    background-color: white;
+    width: 50vmin;
+    height: 95vmin;
+    /* margin: auto; */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 0.02vmin;
+    border-radius: 9px;
+}
+.tt{
+background: url("https://i.etsystatic.com/19343874/r/il/7e6345/5887887914/il_fullxfull.5887887914_iw0w.jpg");
+width: 97%;
+height: 53%;
+background-size:contain;
+margin: 0.7vmin 0.8vmin;
+border-radius: 9px;
+}
+.mini{
+    padding: 10px;
+}
+.minibox{
+    font-size:3.1vmin;
+    padding: 0.2vmin .99vmin;
+    color: rgb(126, 114, 114);
+    margin-left: 3vmin;
+    outline: 1px solid rgb(126, 114, 114);
+    border-radius: 15px;
+    outline-offset:4px;
+}
+h1{
+    padding-left: 2vmin;
+    font-size: 3.5vmin;
+    
+}
+p{
+    font-size: 2.9vmin;
+    padding-left: 2vmin;
+    margin-bottom: 3vmin;
+    
+}
+#diiv{
+    text-align: center;
+    margin-top: 1vmin;
+}
+.tw{
+    text-align: center;
+    color: rgb(21, 21, 206);
+    font-size: 2vmin;
+    padding: 1.9vmin 5.6vmin;
+    padding-top: 2vmin;
+    background-color: rgb(185, 231, 247);
+    text-transform:capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    
+    border-radius: 30px;
+    
+}
+
+.tw:hover{
+    background-color: chartreuse;
+    color:deeppink;
+}
+.tw:active{
+    background-color: rgba(118, 254, 103, 0.687);
+    color: darkmagenta;
+}
